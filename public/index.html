@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Oleo+Script+Swash+Caps&family=Piazzolla:ital,opsz,wght@0,8..30,300;1,8..30,200;1,8..30,300&family=Poppins:wght@200&family=Roboto+Flex:wght@100;300;500;800&family=Titillium+Web:wght@300&family=Ubuntu:ital,wght@0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+   
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PortFolio</title>
+    <style>
+
+      *{
+
+        font-family: 'Roboto Flex', sans-serif;
+        margin: 0;
+       overflow-x: hidden;
+
+       scroll-snap-type: y mandatory;
+       scrollbar-width: none;
+           &::-webkit-scrollbar{
+              display: none;
+          }
+
+
+      }
+
+
+
+
+
+
+    
+/* Center the loader */
+#loader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 50000;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+</style>
+
+
+<script>
+
+
+function myFunction() {
+  document.getElementById("loader").style.display = "none";
+
+}
+
+
+</script>
+
+  </head>
+  <body onload="myFunction()" style="margin: 0;" >
+
+
+
+
+
+<div id="loader">hi</div>
+
+
+
+    
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  
+  </body>
+</html>
