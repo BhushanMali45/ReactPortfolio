@@ -1,35 +1,12 @@
 import "./contact.scss";
 
-import { useContext,  } from "react";
-// import emailjs from "emailjs-com";
-import emailjs from '@emailjs/browser';
-// import { ThemeContext } from "../../context";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 const Contact = () => {
-//   const formRef = useRef();
-//   const [done, setDone] = useState(false)
-  // const theme = useContext(ThemeContext);
-  // const darkMode = theme.state.darkMode;
 
 
 
 
-
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-
-  //   emailjs.sendForm('service_sgx2zrv', 'template_frhlitw', formRef.current, 'DyHyYabrKxK8NWOxT')
-  //     .then((result) => {
-  //         console.log(result.text);
-  //         setDone(done);
-        
-
-  //     }, (error) => {
-  //         console.log(error.text);
-  //     });
-  // };
 
 
 
