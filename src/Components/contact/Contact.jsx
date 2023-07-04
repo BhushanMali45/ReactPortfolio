@@ -1,4 +1,4 @@
-import "./contact.css";
+import "./contact.scss";
 
 import { useContext,  } from "react";
 // import emailjs from "emailjs-com";
