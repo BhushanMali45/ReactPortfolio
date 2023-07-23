@@ -1,4 +1,4 @@
-import "./about.css";
+import "./about.scss";
 // import Award from "../../img/award.png";
 
 const About = () => {
@@ -33,10 +33,10 @@ const About = () => {
 </p>
           </div>
 
-          <div  className="f">
+          {/* <div  className="f">
             <p>
 Aspiring for a challenging career in Software Development as to use my learned skills and experience </p>
-          </div>
+          </div> */}
 
 
 
