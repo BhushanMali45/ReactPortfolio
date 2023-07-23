@@ -19,7 +19,7 @@ const About = () => {
 
         <h1 className="a-title">About Me</h1>
         <div className="resume">
-          <a href="#z" className="btn" download> Download Resume </a>
+          <a href="https://drive.google.com/file/d/1jSojivLmQNpVxD7cfWiPespLGHRaSTGB/view?usp=drivesdk " className="btn" download> Download Resume </a>
         </div>
         <p className="a-role">
           MERN,Full Stack Developer | Alpha Batch Student| Intern At TCR innovation | Intern At Lets GrowMore.
