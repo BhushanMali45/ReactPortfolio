@@ -190,6 +190,12 @@
         margin: 10px 0px;
       }
 
+     
+    }
+
+    &-right {
+      flex: 1;
+
       .resume {
         margin-top: 20px;
         bottom: 20px;
@@ -209,10 +215,6 @@
           }
         }
       }
-    }
-
-    &-right {
-      flex: 1;
     
     }
 
