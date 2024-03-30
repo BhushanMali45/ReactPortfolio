@@ -4,17 +4,9 @@ export default function Work() {
 const[currentSlide,setCurrentSlide]=useState(0)
 
   const data = [
+
     {
       id: "1",
-      icon: "./assets/mobile.png",
-      title: "Frontened Webdevelopment",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img:
-        "./assets/tcr.jpeg",
-    },
-    {
-      id: "2",
       icon: "./assets/globe.png",
       title: "C programming",
       desc:
@@ -23,13 +15,43 @@ const[currentSlide,setCurrentSlide]=useState(0)
         "./assets/nptl.jpeg",
     },
     {
+      id: "2",
+      icon: "./assets/globe.png",
+      title: "Java with DSA",
+      desc:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      img:
+        "./assets/aplha.jpg",
+    },
+    {
+    
+
       id: "3",
+      icon: "./assets/mobile.png",
+      title: "Services Selection Board",
+      desc:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      img:
+        "./assets/ssb.jpg",
+    },
+   {
+      id: "4",
       icon: "./assets/writing.png",
-      title: "web",
+      title: "Web Development",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
       "./assets/tcr.jpeg",
+    },
+
+    {
+      id: "5",
+      icon: "./assets/globe.png",
+      title: "Hackthon",
+      desc:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      img:
+        "./assets/Hackthon.jpg",
     },
   ];
 
@@ -74,7 +96,7 @@ const[currentSlide,setCurrentSlide]=useState(0)
 
       </div>
 
-      <img src="assets/arrow.png" alt=""  className="arrow left" srcset=""  onClick={()=>handleClick("left")}/>
+      <img src="assets/arrow.png" alt=""  className="arrow left"  srcset=""  onClick={()=>handleClick("left")}/>
       <img src="assets/arrow.png" alt=""  className="arrow right" srcset="" onClick={()=>handleClick("")} />
 
     </div>

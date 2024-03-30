@@ -1,8 +1,27 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @import "../../global.scss";
 
 .portfolio {
-  background-color: white;
-//   background-color: greenyellow;
+  // background-color: white;
+  background-color: aliceblue;
+
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,7 +51,8 @@
   }
 
   .container {
-    width: 70%;
+    // width: 70%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,9 +63,11 @@
     }
 
     .item {
-      width: 220px;
-      height: 150px;
-      border-radius: 20px;
+      // width: 350px;
+      //  height: 250px;
+       width: 320px;
+      height:180px;
+       border-radius: 20px;
       border: 1px solid rgb(240, 239, 239);
       margin: 10px 20px;
       display: flex;
@@ -76,9 +98,32 @@
       img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        // object-fit: cover;
+        object-fit:cover;
         z-index: 1;
       }
+
+
+      // video{
+      //   width: 100%;
+      //   height: 100%;
+      //   object-fit: cover;
+      //   z-index: 1;
+      //   zoom: 1;
+      // }
+
+
+      
+     
+
+
+
+
+
+
+
+
+
 
       &:hover {
 
@@ -91,6 +136,24 @@
           z-index: 0;
         }
       }
+
+
+      // &:hover {
+
+      //   background-color: $mainColor;
+      //   a{
+      //   color: aqua;
+      //   }
+      //   video{
+      //     opacity: 0.2;
+      //     z-index: 0;
+      //   }
+      // }
+
+
+
+
+
     }
   }
 }

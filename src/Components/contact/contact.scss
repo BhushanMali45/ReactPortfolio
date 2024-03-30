@@ -1,7 +1,9 @@
 .c {
   height: 100vh;
   position: relative;
-  background-color: white;
+  // background-color: white;
+  background-color: aliceblue;
+
 }
 
 .c-bg {
@@ -36,7 +38,7 @@
 .c-info-item {
   display: flex;
   align-items: center;
-  margin: 50px 0px;
+  margin: 30px 0px;
   font-weight: 300;
   width: 70%;
 

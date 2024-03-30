@@ -20,16 +20,16 @@ export default function Portfolio() {
       link:"h"
     },
     {
-      id: "web",
-      title: "Frontened",
+      id: "mern",
+      title: "Mern",
     },
     {
       id: "react",
       title: "React",
     },
     {
-      id: "mern",
-      title: "Mern",
+      id: "web",
+      title: "Frontened",
     },
     {
       id: "star",
@@ -89,9 +89,17 @@ export default function Portfolio() {
 
 <div className="container">
 {data.map((d) => (
-  <div className="item">
-    <a href={d.link} target='_blank' rel="noreferrer" > <img src={d.img} alt="" srcset="" /></a>
-     <a href={d.link}><h3 >{d.title} </h3></a>
+  <div className="item overlay ovelay">
+    <a href={d.link} target='_blank' rel="noreferrer"   > <img src={d.img} alt="" srcset="" /></a>
+    {/* <a href={d.link} target='_blank' rel="noreferrer"   >  <video controls>
+          <source src={d.video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video></a> */}
+
+     <a  href={d.link}><h3 >{d.title} </h3></a>
+
+
+     
   </div>
         ))}
       </div>

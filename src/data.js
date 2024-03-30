@@ -14,27 +14,28 @@ export const featuredPortfolio = [
     title: "Weather App",
     link:"https://weathercheck-h62r.onrender.com/",
     img:
-      "./assets/1.jpg",
+      "./assets/img/w1.jpg",
+      // video: "./assets/weather.mp4" 
   },
   {
     id: 2,
     title: "Placement Management system",
     link:"https://placement-management-system45.onrender.com/",
     img:
-      "./assets/2.jpg",
+      "./assets/img/p2.png",
   },
   {
     id: 3,
     title: "Music",
     link:"https://45music.netlify.app",
     img:
-      "./assets/3.jpg",
+      "./assets/img/m2.png",
   },
   {
     id: 4,
     title: "speech to text",
     link:"https://speechtotextrecog.netlify.app",
-          img: "./assets/4.jpg",
+          img: "./assets/img/s1.png",
   },
   {
     id: 5,
